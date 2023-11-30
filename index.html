@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap Academy</title>
+    <link rel="icon" href="file:///C:/HTML/pictures/tap%20logo.jpg">
+    <style>
+        #field{
+            border: 3px ridge black;
+            background-color:navajowhite ;
+            border-radius: 10px;
+        }
+        #fieldd{
+            border: 1px ridge white;
+            background-color:#342f2fac ;
+            margin-top: 5px;
+        }
+        #fielddd{
+            background-color: rgb(161, 179, 130);
+            border: 3px ridge black;
+            margin-top: 5px;
+        }
+        #fieldddd{
+            border: 1px ridge black;
+            background-color:rgb(199, 224, 215) ;
+            margin-top: 3px;
+        }
+        #one{
+           padding-left: 20px; 
+           text-decoration: none;
+           margin-top: 15px;
+           padding-top: 10px;
+        }
+        #two{
+           padding-left: 20px; 
+           text-decoration: none;
+        }
+        #three{
+           padding-left: 800px; 
+        }
+        #four{
+           padding-left: 20px; 
+           text-decoration: none;
+        }
+        #five{
+           padding-left: 100px; 
+        }
+        #six{
+           padding-left: 50px; 
+           padding-top: 100px;
+           margin-top: 10px;
+           line-height: 5px;
+        }
+        #seven{
+            padding-left: 100px;
+        }
+        #eight{
+            padding-left: 50px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        #nine{
+            margin-left: 1300px;
+            border: 3px solid black;
+            background-color: lightgreen;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        
+        #eleven{
+            padding-left: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+        #tweleve{
+            margin-left: 800px;
+            margin-top: -150px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        #thirteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+        #fourteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-left: 100px;
+            border: 3px solid black;
+            text-decoration: none;
+        }
+        #fifteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            padding-left: 150px;
+        }
+        #sixteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            padding-left: 650px;
+            margin-top: -50px;
+            
+        }
+        #seventeen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            padding-left: 1050px;
+            margin-top: -50px;
+        }
+        #eighteen{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding-left: 150px;
+        }
+        #nineteen{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding-left: 650px;
+            margin-top: -43px;
+        }
+        #twenty{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding-left: 1000px;
+            margin-top: -43px;
+        }
+        #twentyone{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding-left: 200px;
+            margin-top: -20px;
+        }
+        #twentytwo{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding-left: 640px;
+            margin-top: -40px;
+        }
+        #twentythree{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding-left: 1020px;
+            margin-top: -45px;
+        }
+        #twentyfour{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            padding-left: 400px;
+            margin-top: -25px;
+        }
+        #twentyfive{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 100px;
+            padding-right: 97px;
+        }
+        #twentysix{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 400px;
+            padding-right: 97px;
+        }
+        #twentyseven{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 700px;
+            padding-right: 97px;
+            margin-top: -39px;
+        }
+        #twentyeight{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 1000px;
+            padding-right: 97px;
+            margin-top: -39px;
+        }
+        #twentynine{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 370px;
+        }
+        #thirty{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 650px;
+            margin-top: -42px;
+        }
+        #thirtyone{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 990px;
+            margin-top: -42px;
+        }
+        #thirtytwo{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 200px;
+        }
+        #thirtythree{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 800px;
+            margin-top: -15px;
+            border: 2px solid black;
+            background-color: rgb(180, 218, 30);
+            text-decoration: none;
+        }
+        #thirtyfour{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 190px;
+            margin-top: -5px;
+        }
+        #thirtyfive{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 200px;
+        }
+        #thirtysix{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+            padding-left: 420px;
+        }
+        #thirtyseven{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+        #thirtysevenn{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 400px;
+            padding-right: 200px;
+        }
+        #thirtyeight{
+            padding-left: 70px; 
+        }
+        #thirtynine{
+            padding-left: 80px; 
+        }
+        #fourty{
+            padding-left: 80px; 
+        }
+        #fourtyone{
+            padding-left: 100px; 
+        }
+        #fourtytwo{
+            padding-left: 100px; 
+        }
+        #fourtythree{
+            padding-left: 600px; 
+        }
+        #fourtyfour{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+        #fourtyfive{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 400px;
+            padding-right: 200px;
+            margin-top: -10px;
+        }
+        #fourtysix{
+            padding-left: 400px;
+        }
+        #fourtyseven{
+            padding-left: 500px;
+            
+        }
+        #fourtyeight{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            padding-left: 500px;
+            padding-right: 200px;
+        }
+        #fourtynine{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+        #fifty{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-right: 200px;
+            margin-left: 397px;
+            margin-top: -10px;
+        }
+        #fiftyone{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            margin-left: 500px;
+            margin-top: -20px;
+        }
+        #fiftytwo{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 150px;
+            margin-top: -10px;
+        }
+        #fiftythree{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 150px;
+            margin-top: -15px;
+        }
+        #fiftyfour{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 150px;
+        }
+        #fiftyfive{
+            padding-left: 300px;
+            margin-top: -30px;
+        }
+        #fiftysix{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 200px;
+        }
+        #fiftyseven{
+            margin-left: 900px;
+            margin-top: -800px;
+        }
+        #fiftyeight{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-left: 200px;
+            background-color: aliceblue;
+            text-decoration: none;
+            border: 2px solid palevioletred;
+        }
+        #fiftynine{
+            margin-left: 700px;
+        }
+        #sixty{
+            margin-left: 610px;
+            margin-top: -25px;
+        }
+        #sixtyone{
+            margin-left: 550px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        #sixtytwo{
+            margin-left: 550px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        #sixtythree{
+            margin-left: 680px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        #sixtyfour{
+            margin-left: 400px;
+            margin-top: -5px;
+        }
+        #sixtyfive{
+            margin-left: 300px;
+            margin-top: -5px;
+        }
+        #sixtysix{
+            margin-left: 420px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        #sixtyseven{
+            margin-left: 425px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        #sixtyeight{
+            margin-left: 930px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -65px;
+        }
+        #sixtynine{
+            margin-left: 910px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        #seventy{
+            margin-left: 400px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        #seventyone{
+            margin-left: 920px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -40px;
+        }
+        #seventytwo{
+            margin-left: 400px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        #seventythree{
+            padding-left:  920px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -60px;
+        }
+        #seventyfour{
+            margin-left: 400px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        #seventyfive{
+            margin-left: 920px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -40px;
+        }
+        #seventysix{
+            margin-left: 400px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        #seventyseven{
+            margin-left: 920px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -40px;
+        }
+        #seventyeight{
+            margin-left: 400px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        #seventynine{
+            margin-left: 920px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -40px;
+        }
+        #eighty{
+            margin-left: 400px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        #eightyone{
+            margin-left: 920px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -40px;
+        }
+        #eightytwo{
+            margin-left: 400px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        #eightythree{
+            margin-left: 920px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -40px;
+        }
+        #eightyfour{
+            margin-left: 400px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        #eightyfive{
+            margin-left: 920px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -40px;
+        }
+        #eightysix{
+            margin-left: 400px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: 30px;
+            border: 2px solid green;
+            text-decoration: none;
+        }
+        #eightyseven{
+            margin-left: 920px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            border: 2px solid green;
+            text-decoration: none;
+            margin-top: -10px;
+        }
+        #eightyeight{
+            margin-left: 620px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+        #eightynine{
+            margin-left: 420px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        #ninety{
+            margin-left: 350px;
+        }
+        #ninetyone{
+            margin-left: 400px;
+        }
+        #ninetytwo{
+            margin-left: 340px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        #ninetythree{
+            margin-left: 320px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        #ninetyfour{
+            margin-left: 200px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        #ninetyfive{
+            margin-left: 220px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -10px;
+        }
+        #ninetysix{
+            margin-left: 800px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -75px;
+        }
+        #ninetyseven{
+            margin-left: 900px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-top: -10px;
+        }
+        #ninetyeight{
+            margin-left: 250px;
+        }
+        #ninetynine{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 250px;
+        }
+        #hundred{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 200px;
+        }
+        #hone{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 300px;
+            margin-top: -10px;
+        }
+        #htwo{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            margin-left: 650px;
+            margin-top: -10px;
+        }
+        #hthree{
+            margin-left: 150px;
+            
+        }
+        #hfour{
+            margin-left: 100px;
+        }
+        #hfive{
+            margin-left: 100px;
+        }
+        #hsix{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            margin-left: 200px;
+        }
+        #hseven{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+        #height{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            margin-left: 200px;
+        }
+        #hnine{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            margin-left: 200px;
+        }
+        #hten{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-left: 170px;
+        }
+        #heleven{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 650px;
+            text-decoration: none;
+        }
+        #htweleve{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 280px;
+            text-decoration: none;
+        }
+        #hthirteen{
+            margin-left: 100px;
+        }
+        #hfourteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-left: 280px;
+            margin-top: -50px;
+        }
+        #hfifteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 650px;
+            text-decoration: none;
+        }
+        #hsixteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 272px;
+            text-decoration: none;
+        }
+        #hseventeen{
+            margin-left: 63px;
+        }
+        #heighteen{
+            margin-left: 280px;
+        }
+        #hnineteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        #htwentyone{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 289px;
+            text-decoration: none;
+        }
+        #htwentytwo{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 200px;
+            text-decoration: none;
+        }
+        #htwentythree{
+            margin-left: 35px;
+        }
+        #htwentyfour{
+            margin-left: 280px;
+        }
+        #htwentyfive{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        #htwentysix{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 196.5px;
+            text-decoration: none;
+        }
+
+        #htwentyseven{
+            margin-left: 502px;
+        }
+        #htwentyeight{
+            margin-left: 280px;
+        }
+        #htwentynine{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        #hthirty{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 222px;
+            text-decoration: none;
+        }
+        #hthirtyone{
+            margin-left: 280px;
+        }
+        #hthirtytwo{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        #hthirtythree{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 115.5px;
+            text-decoration: none;
+        }
+
+        
+ 
+
+
+        
+       
+        
+       
+
+        
+        
+    </style>
+</head>
+<body>
+    <fieldset id="field">
+        <a id="0ne" href="tel:+91 08069878321 "><img src="pictures/phone logo.jpg" alt="" height="15px" width="20px"></a> <a id="two" href="tel:+91 08069878321">08069878321</a>   
+        <a id="three" href="hello@thetapacademy.com"><img src="pictures/mail logo.jpg" alt="" height="15px" width="20px"></a><a id="four" href="hello@thetapacademy.com">hello@thetapacademy.com</a> 
+        <a id="five" href="https://www.youtube.com/@TAPACADEMY"><img src="pictures/youtube logo.png" alt="" height="15px" width="20px"></a>
+        <a id="six" href="https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbEhDZ0VsTHFVOHR1Y29UNnpIemg4TVpxMm9UUXxBQ3Jtc0traExURzVjQXA3akMyM21IcTdhck9VSGNlUE00cnI0QnVReHJmR2ZxbjBjY1Atb1VocW12cTFmNFMtdTFVTlBWTGJ0cEZrdWc3OTk3OFgwbTNiMmxNZUhIbmhEaTNPbEZLSklCNkR6NVhzc0lqcFlDTQ&q=https%3A%2F%2Fwww.instagram.com%2F%40tapacademy.online%2F"><img id="a" src="pictures/insta logo.png" alt="" height="15px" width="20px"></a>
+    </fieldset>
+    <a href="index.html"></a>
+    <fieldset id="fieldd">
+    <a id="seven" href="index.html"><img src="pictures/tap logo.jpg" alt="" height="100px" width="200px"></a>
+    
+     <a id="eight" href="Home.html">Home</a>
+     <a id="eight" href="Course.html"> Course</option></a>
+     <a id="eight" href="Student reviews.html">Student reviews</a>
+     <a id="eight" href="blogs.html">Blogs</a>
+     <a id="eight" href="placements.html">Placements</a>
+     <a id="eight" href="Contact us.html">Contact us</a>
+    <a id="nine" href="https://learn.thetapacademy.com/">Try for Free </a><br><br>
+</fieldset>
+<fieldset id="fielddd"> 
+<h1 id="eleven">#TechTraining</h1>
+<h1 id="eleven" >Gamify learning  </h1>
+<h1 id="eleven" > Simplify Employment</h1>
+<video id="tweleve" src="demo video .mp4" controls height="1%" width="30%"></video>
+ <p id="thirteen">TAP Academy is an One-Stop Destination to upskill your coding skills or
+reskill yourself. More than 35,000+ students trust us all over India.</p><br><br>
+
+<a id="fourteen" href="Application.html">Attend a Free Demo</a><br><br><br>    
+
+<h2 id="fifteen">Personalized Course Curriculum</h2> <h2 id="sixteen"> Placement Opportunity</h2> <h2 id="seventeen"> 1 : 1 Mentorship</h2>                 
+<p id="eighteen" >We offer Individual attention to choose </p> <p id="nineteen" >Getting unlimited placement </p>    <p id="twenty" >  Our pool of mentors ensure your every</p>
+<p id="twentyone" >right course for your career </p>  <p id="twentytwo"> opportunities till you get placed</p>  <p id="twentythree">doubt is addressed immediately</p><br><br><br>
+
+<h1 id="twentyfour">Experience the Augmented Reality Tech Training</h1>
+<p id="twentyfive">One of the Unique features of Tap Academy is the use of Augmented Reality in our training.  Through this concepts are visualized using cutting-edge
+animation to ensure an in-depth understanding of the concepts & experience the pure joy of learning as well as upskilling your coding skills</p><br><br>
+<h2 id="twentysix">35000 +</h2>  <h2 id="twentyseven">600 + </h2>  <h2 id="twentyeight">1000 +</h2>                                            
+<p id="twentynine">students trained </p>  <p id="thirty">Workshop Conducted</p>    <p id="thirtyone">Placements</p><br>
+<h1 id="thirtytwo">Live Workshop </h1>
+<h1 id="thirtyfour"> Attend Live Coding Bootcamp</h1>
+<a id="thirtythree" href="Application.html">RESERVE MY SEAT</a><br>
+<p id="thirtyfive">Register Now to attend coding Bootcamp on Full Stack Development & get 2 Placement Drives</p><br><br>
+<h1 id="thirtysix">Tap Academy Students Transformation</h1>
+<p id="thirtyseven">Our complete online training has made students learn to code anytime anywhere, enhance their coding skills & got placed in various </p>
+    <p id="thirtysevenn">Companies. Here areour few students placed at various companies :</p><br>
+<img id="thirtyeight" src="students placed/placed1.png" alt="" height="300px" width="200px">  <img id="thirtynine" src="students placed/placed2.png" alt="" height="300px" width="200px">  <img id="fourty" src="students placed/placed3.png" alt="" height="300px" width="200px">  <img id="fourtyone" src="students placed/placed4.png" alt="" height="300px" width="200px"> <img id="fourtytwo" src="students placed/placed5.png" alt="" height="300px" width="200px">
+
+<h1 id="fourtythree">Our Students Placed in</h1>
+<p id="fourtyfour">Tap Academy presents Unlimited  Job guarantee Placements for every student who enroll. More than 11,000+ students have got </p>
+<p id="fourtyfive"> exposure to AR Tech Training. Explore our Courses to know more </p><br><br>
+
+<marquee scrollamount="10%"  direction="left"><img src="companies/accenture.png" alt="" height="100px" width="300px"><img src="companies/capgemini.png" alt="" height="100px" width="300px"><img src="companies/cisco.png" alt="" height="100px" width="300px"> <img src="companies/cognizant.png" alt="" height="100px" width="300px"><img src="companies/concentrix.png" alt="" height="100px" width="300px"><img src="companies/deloitee.png" alt="" height="100px" width="300px"><img src="companies/infosys.png" alt="" height="100px" width="300px"><img src="companies/mindtree.png" alt="" height="100px" width="300px"><img src="companies/oracle.png" alt="" height="100px" width="300px"><img src="companies/tata.png" alt="" height="100px" width="300px"><img src="companies/virtusa.png" alt="" height="100px" width="300px"></marquee><br><br>
+
+<h1 id="fourtysix">Recognized by International Bodies & Govt. Of India</h1>
+<img id="fourtyseven" src="pictures/startup.png" alt="" height="100px" width="500px"><br>
+<h1 id="fourtyeight">Campus to Corporate Program</h1>
+<p id="fourtynine">Tap Academy is a skilling organization that trains students to sync with current IT needs. Our Specialized Job Guarantee Courses </p>
+<p id="fifty"> from campus students to corporate employee by enhancing their coding skills </p><br><br>
+
+<h1 id="fiftyone" >Full Stack Development Course</h1>
+<p id="fiftytwo"> Tap Academy offers 90 days Intensive certification training program </p>
+<p id="fiftythree">exclusively for Final year Students & Tech Graduates</p><br>
+<p id="fiftyfour">3248 Students </p>
+<img id="fiftyfive" src="pictures/rating star.png" alt="" height="10px" width="10px"> 
+<img src="pictures/rating star.png" alt="" height="10px" width="10px"> 
+<img src="pictures/rating star.png" alt="" height="10px" width="10px"> 
+<img src="pictures/rating star.png" alt="" height="10px" width="10px"> 
+<img src="pictures/rating star1.png" alt="" height="10px" width="10px"> <br> <br>
+
+<li id="fiftysix">A Full-stack developer is a person who has great knowledge of the </li>         
+<p id="fiftysix">latest and upcoming trends of web development with complete </p>
+<p id="fiftysix">knowledge of front-end and back-end web development.</p>
+<li id="fiftysix">According to the research, there is a 20% growth in demand for Full-  </li>          
+<p id="fiftysix">stack developer compared to the last couple of years.</p>
+<li id="fiftysix">Full-stack developer are the experts with diverse knowledge and skill set. </li>
+<p id="fiftysix">So the Pay are in High & decent salary structure</p>
+<li id="fiftysix">IT Industry is looking for skilled candidates who can work efficiently </li>
+ <p id="fiftysix"> with latest tech (Full stack) and solve complex problems</p>
+ <img id="fiftyseven" src="pictures/web pic.jpg" alt="" width="200px" height="200px"> <br><br>
+
+<a id="fiftyeight" href="Application.html">Know More</a>
+
+<h1 id="fiftynine">Our </h1>
+<h1 id="sixty">Career Programs</h1><br>
+
+<p id="sixtyone">Explore our online courses designed by experts </p>
+<p id="sixtytwo">which offer students support, career counseling </p>
+<p id="sixtythree">& Certification</p>
+
+<img id="sixtyfour" src="pictures/data pic.jpg" alt="" width="200px" height="200px"> 
+<img id="sixtyfive" src="pictures/java pic.jpg" alt=""width="200px" height="200px">
+<h3  id="sixtysix">Data Strucures </h3>    
+<h3  id="sixtyseven">& Algorithms </h3>
+<h3  id="sixtyeight"> Java Full Stack </h3>
+<h3  id="sixtynine">  Development Training </h3>                     
+<p id="seventy">In this course, you will </p>
+<p id="seventyone">Become a Full Stack</p>
+<p id="seventytwo">look at the core data </p> <br>
+<p id="seventythree"> Developer in 90 days with</p>
+<p id="seventyfour">structures and algorithms  </p>
+<p id="seventyfive">our AR Tech Training +</p>
+<p id="seventysix">that are the building</p>
+<p id="seventyseven">100% Placement Support.</p>
+<p id="seventyeight">blocks of applications </p>
+<p id="seventynine">Full stack Development is</p>
+<p id="eighty">everywhere. You will learn</p>
+<p id="eightyone">one of the Top in-demand</p>
+<p id="eightytwo">how they work and see </p>
+<p id="eightythree"> skill to get placed in IT</p>
+<p id="eightyfour"> real-world. </p>
+<p id="eightyfive"> Industry</p> <br>
+                                                    
+<a  id="eightysix" href="Data structures&algorithms.html">Know More </a>      
+<a  id="eightyseven" href="Full-stack-web-development.html">Know More </a><br> <br> <br>
+
+
+<h1 id="eightyeight">Why to Choose Us</h1>
+<p id="eightynine">Tap Academy's vision is to upskill technical graduates into software employees.</p> <br>
+<a id="ninety" href="index.html"><img src="pictures/career.jpg" alt="" height="400px" width="200px"> </a>
+<a id="ninetyone" href="index.html"><img src="pictures/Augumented.jpg" alt="" height="400px" width="200px"></a> <br> <br>
+<b id="ninetytwo">Dedicated Career Support</b></a> 
+<b id="ninetythree">Augmented Reality Based Learning</b>
+<p id="ninetyfour">Get trained on Soft skills, Mock Interviews, Resume Building, </p> 
+<p id="ninetyfive"> LinkedIn Profile optimizing, Email etiquette & much more</p>
+<p id="ninetysix">Attend one of the kind Augmented Reality based live classed & </p>
+<p id="ninetyseven">solve Interview coding questions</p><br><br>
+<img id="ninetyeight" src="pictures/lms.jpg" alt="" height="200px" width="300px"> <br> <br>
+
+<b id="ninetynine">24x7 Learning Management System</b>
+<p id="hundred">Wholesome learning experience with 500 hours of Quality Training </p>
+<p id="hone">and 200+ hands on coding questions </p><br>
+
+<h1 id="htwo">Our Team</h1>
+<img id="hthree" src="pictures/rohith.jpg" alt="" height="300px" width="300px" title="Rohit Ravindar"> 
+<img id="hfour" src="pictures/rakshit.jpg" alt="" height="300px" width="300px" title="Rakshit"> 
+<img id="hfive" src="pictures/somanna.jpg" alt="" height="300px" width="300px" title="Somanna"> <br>
+</fieldset>
+<fieldset id="fieldddd">  <br> <br>
+
+<b id="hsix">TAP </b>
+<b id="hseven">ACADEMY</b>
+<b id="height">Useful Links</b> 
+<b id="hnine">Policies</b>  
+
+<p id="hten">An Online Skilling Organization</p> <br>
+<a id="heleven" href="Home.html">Home</a> 
+<a id="htweleve" href="privacy policy.html">privacy policy</a>
+<a id="hthirteen" href="pictures/facebook.jpg"><img src="pictures/facebook.jpg" alt="" height="40px" width="40px"></a>
+<p id="hfourteen">Location</p> 
+<a id="hfifteen" href="Course.html">Course</option></a> 
+<a id="hsixteen" href="terms&conditions.html">Terms&Conditions</a> 
+<a id="hseventeen" href="https://www.youtube.com/@TAPACADEMY"><img src="pictures/youtube logo.png" alt="" height="40px" width="35px"></a> <br>
+
+<a id="heighteen" href="https://www.google.co.in/maps/place/TAP+Academy+BTM/@12.9163145,77.6080569,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae3d6411bbb945:0x884e5e751a18bc1!8m2!3d12.9163145!4d77.6106318!16s%2Fg%2F11rd5h21qx?entry=ttu"><img src="pictures/map.jpg" alt="" height="20px" width="20px"></a> 
+<a id="hnineteen" href="https://www.google.co.in/maps/place/TAP+Academy+BTM/@12.9163145,77.6080569,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae3d6411bbb945:0x884e5e751a18bc1!8m2!3d12.9163145!4d77.6106318!16s%2Fg%2F11rd5h21qx?entry=ttu">BTM</a> 
+<a id="htwentyone" href="Student reviews.html">Student reviews</a>
+<a id="htwentytwo" href="Refunds.html">Refunds/Cancellations</a> 
+<a id="htwentythree" href="tapacademy.online"><img src="pictures/insta logo.png" alt="" height="40px" width="35px"></a><br>
+<a id="htwentyfour" href="https://www.google.co.in/maps/place/Tap+Academy+-+Rajajinagar/@12.9918022,77.5541934,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae3dd04c97b969:0xb9919df007104d14!8m2!3d12.9918022!4d77.5567683!16s%2Fg%2F11v0jvl9x3?entry=ttu"><img src="pictures/map.jpg" alt="" height="20px" width="20px"></a>  
+<a id="htwentyfive" href="https://www.google.co.in/maps/place/Tap+Academy+-+Rajajinagar/@12.9918022,77.5541934,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae3dd04c97b969:0xb9919df007104d14!8m2!3d12.9918022!4d77.5567683!16s%2Fg%2F11v0jvl9x3?entry=ttu">RAJAJINAGAR</a> 
+<a id="htwentysix" href="blogs.html">Blogs</a>
+<a id="htwentyseven" href="pictures/linkedin.jpg"><img src="pictures/linkedin.jpg" alt="" height="40px" width="35px"></a><br> <br>
+<a id="htwentyeight" href="tel:+91 08069878321"><img src="pictures/phone logo.jpg" alt="" height="20px" width="20px"></a> 
+<a id="htwentynine" href="tel:+91 08069878321">08069878321</a>
+<a id="hthirty" href="placements.html">Placements</a><br> <br>
+<a id="hthirtyone" href="hello@thetapacademy.com"><img src="pictures/mail logo.jpg" alt="" height="20px" width="20px"></a>
+<a id="hthirtytwo" href="hello@thetapacademy.com">hello@thetapacademy.com</a> 
+<a id="hthirtythree" href="Contact us.html">Contact us</a> 
+
+    </fieldset>
+
+</body>
+</html>  

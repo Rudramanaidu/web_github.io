@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Structures & algorithm</title>
+    <style>
+
+#hsix{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            margin-left: 200px;
+        }
+        #hseven{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+        #height{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            margin-left: 200px;
+        }
+        #hnine{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            margin-left: 200px;
+        }
+        #hten{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-left: 170px;
+        }
+        #heleven{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 650px;
+            text-decoration: none;
+        }
+        #htweleve{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 280px;
+            text-decoration: none;
+        }
+        #hthirteen{
+            margin-left: 100px;
+        }
+        #hfourteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-left: 280px;
+            margin-top: -50px;
+        }
+        #hfifteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 650px;
+            text-decoration: none;
+        }
+        #hsixteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 272px;
+            text-decoration: none;
+        }
+        #hseventeen{
+            margin-left: 63px;
+        }
+        #heighteen{
+            margin-left: 280px;
+        }
+        #hnineteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        #htwentyone{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 289px;
+            text-decoration: none;
+        }
+        #htwentytwo{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 200px;
+            text-decoration: none;
+        }
+        #htwentythree{
+            margin-left: 35px;
+        }
+        #htwentyfour{
+            margin-left: 280px;
+        }
+        #htwentyfive{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        #htwentysix{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 196.5px;
+            text-decoration: none;
+        }
+
+        #htwentyseven{
+            margin-left: 502px;
+        }
+        #htwentyeight{
+            margin-left: 280px;
+        }
+        #htwentynine{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        #hthirty{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 222px;
+            text-decoration: none;
+        }
+        #hthirtyone{
+            margin-left: 280px;
+        }
+        #hthirtytwo{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        #hthirtythree{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 115.5px;
+            text-decoration: none;
+        }
+
+
+
+        #field{
+            border: 3px ridge black;
+            background-color:rgb(105, 101, 101) ;
+            border-radius: 10px;
+            color: white;
+
+        }
+        #fieldd{
+            border: 3px ridge black;
+            background-color:rgb(122, 181, 102) ;
+            border-radius: 10px;
+            margin-top: 5px;
+            
+        }
+        #fielddd{
+            border: 3px solid black;
+            background-color: rgb(160, 246, 217);
+            margin-top: 5px;
+        }
+
+        #fieldddd{
+            border: 1px ridge black;
+            background-color:rgb(232, 118, 182) ;
+            margin-top: 3px;
+        }
+        #one{
+           padding-left: 20px; 
+           text-decoration: none;
+           margin-top: 15px;
+           padding-top: 10px;
+        }
+        #two{
+           padding-left: 20px; 
+           text-decoration: none;
+        }
+        #three{
+           padding-left: 800px; 
+        }
+        #four{
+           padding-left: 20px; 
+           text-decoration: none;
+        }
+        #five{
+           padding-left: 100px; 
+        }
+        #six{
+           padding-left: 50px; 
+           padding-top: 100px;
+           margin-top: 10px;
+        }
+        #seven{
+            padding-left: 100px;
+        }
+        #eight{
+            padding-left: 50px;
+            font-size: 20px;
+            text-decoration: none;
+            color: navy;
+        }
+        #nine{
+            margin-left: 300px;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            padding-top: 10px;
+        }
+        #ten{
+            margin-left: 300px;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        #eleven{
+            margin-left: 300px;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #tweleve{
+            margin-left: 200px;
+            margin-right: 200px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #thirteen{
+            margin-left: 200px;
+            margin-right: 200px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #fourteen{
+            margin-left: 200px;
+            margin-right: 200px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #fifteen{
+            margin-left: 200px;
+            margin-right: 200px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #sixteen{
+            margin-left: 300px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #seventeen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 300px;
+        }
+        #eighteen{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 300px;
+        }
+        #nineteen{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin-left: 200PX;
+        }
+        #twenty{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding-left: 200px;
+        }
+        #twentyone{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding-left: 600px;
+            margin-top: -75PX;
+        }
+        #twentytwo{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding-left: 900px;
+            margin-top: -75PX;
+        }
+        #twentythree{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            margin-left: 500px;
+        }
+        #twentyfour{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-left: 100px;
+        }
+        #twentyfive{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 150px;
+            margin-right: 200px;
+        }
+        #twentysix{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-left: 100px;
+        }
+        #twentyseven{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 100px;
+        }
+        #twentyeight{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 150px;
+            margin-right: 200px;
+        }
+        #twentynine{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 17px;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        #thirty{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 100px;
+            margin-right: 200px;
+        }
+        #thirtyone{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 17px;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        #thirtytwo{
+           margin-left: 180px;
+        }
+        #thirtythree{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 17px;
+            
+           
+        }
+        #thirtyfour{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-left: 450px;
+        }
+        #thirtyfive{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 17px;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        
+    </style>
+</head>
+<body>
+    <fieldset id="field">
+        <a id="0ne" href="tel:+91 08069878321 "><img src="pictures/phone logo.jpg" alt="" height="15px" width="20px"></a> <a id="two" href="tel:+91 08069878321">08069878321</a>   
+        <a id="three" href="hello@thetapacademy.com"><img src="pictures/mail logo.jpg" alt="" height="15px" width="20px"></a><a id="four" href="hello@thetapacademy.com">hello@thetapacademy.com</a> 
+        <a id="five" href="https://www.youtube.com/@TAPACADEMY"><img src="pictures/youtube logo.png" alt="" height="15px" width="20px"></a>
+        <a id="six" href="https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbEhDZ0VsTHFVOHR1Y29UNnpIemg4TVpxMm9UUXxBQ3Jtc0traExURzVjQXA3akMyM21IcTdhck9VSGNlUE00cnI0QnVReHJmR2ZxbjBjY1Atb1VocW12cTFmNFMtdTFVTlBWTGJ0cEZrdWc3OTk3OFgwbTNiMmxNZUhIbmhEaTNPbEZLSklCNkR6NVhzc0lqcFlDTQ&q=https%3A%2F%2Fwww.instagram.com%2F%40tapacademy.online%2F"><img id="a" src="pictures/insta logo.png" alt="" height="15px" width="20px"></a>
+    </fieldset>
+    <a href="index.html"></a>
+    <fieldset id="fieldd">
+    <a id="seven" href="index.html"><img src="pictures/tap logo.jpg" alt="" height="100px" width="200px"></a>
+     <a id="eight" href="Home.html">Home</a>
+     <a id="eight" href="Course.html"> Course</option></a>
+     <a id="eight" href="Student reviews.html">Student reviews</a>
+     <a id="eight" href="blogs.html">Blogs</a>
+     <a id="eight" href="placements.html">Placements</a>
+     <a id="eight" href="Contact us.html">Contact us</a>
+</fieldset>
+
+
+
+<fieldset id="fielddd">
+
+
+
+
+<h1 id="nine">Data Structures and </h1>
+<h1 id="ten">Algorithms - Learning made</h1> 
+<h1 id="eleven"> fun with AR</h1><br>
+<p id="tweleve">4.5 (2567 Students)</p><br>
+<p id="thirteen">Want to land a job at your dream IT company? If yes, then Data Structure and 
+Algorithms are a pathway to your dream product-based companies. </p>
+
+<p id="fourteen">First, Tap Academy’s Data Structures and Algorithms course makes learning 
+    fun with augmented reality training. Second, this course provides practical 
+    training on the concepts.</p> 
+<p id="fifteen"> In addition, it offers instructor-led training and personal mentorship from 
+    experts. Furthermore, the course covers the solution to the problems asked 
+    by top tech companies.</p><br> <br>
+
+<li id="sixteen">Trusted by 10k+ students </li> <br>
+<li id="seventeen"> by subject matter experts</li> <br>
+<li id="eighteen"> Consists of video lectures, quizzes, discussion forums, and coding problems</li> <br>
+<p id="nineteen">The course profoundly covers the concept of Data Structures and Algorithms, 
+which are the building blocks of many real-life applications.</p>
+<P id="twenty"><img src="pictures/dsa.png" alt=""height="60px" width="60px">DSA Certification Course</P>
+<P id="twentyone"><img src="pictures/course.png" alt=""  height="60px" width="60px">2022 Updated Course</P>
+<P id="twentytwo"><img src="pictures/placement.png" alt=""  height="60px" width="60px">Placement Support></P>
+<br> 
+
+<h1 id="twentythree">Why Data Structures and Algorithms?</h1> <br>
+<h3 id="twentyfour">What is Data Structure?</h3>
+<p id="twentyfive">Look around you! The whole world revolves around information and data. As a result, data and information are integral to daily life.</p>
+<p id="twentyfive">However, that data must be stored somewhere where it can be easily accessed and processed. </p>
+<p id="twentyfive">That’s where Data Structures come into the picture! </p>
+<p id="twentyfive">Data Structure is a systematic process of organizing and storing the data in the main memory of the computer so that it can be managed properly and utilized 
+    efficiently. One common example of data structure is a LinkedIn List. </p>
+
+<h3 id="twentysix">What are the types of Data Structure?</h3>
+<p id="twentyseven">There are two types of Data Structures :</p>
+
+<h3 id="twentyeight">1. Linear Data Structures</h3>
+<p id="twentynine">If the elements in the Data Structure are arranged in a sequential manner one 
+    after the other then it is called a Linear Data Structure. </p>
+<p id="twentynine">A sequential arrangement makes it easy to access elements. </p>
+<p id="twentynine">Examples of Linear Data structures are Array, Linked List, Stack, and Queue.</p>
+
+<h3 id="twentyeight">2. Non-linear Data Structures</h3>
+<p id="twentynine">Unlike Linear Data Structure, if the elements are not arranged in a sequential </p>
+<p id="twentynine">manner then it is called a Non-Linear Data Structure.</p>
+<p id="twentynine">Instead, they’re connected in a hierarchical manner where one element connects </p>
+<p id="twentynine">to multiple elements.</p>
+<p id="twentynine">Examples of Non-Linear Data Structures are Graphs, Trees.
+
+<h3 id="thirty">Why Data Structure?</h3>
+<p id="thirtyone">Data Structure is the key component of the programming world and helps in 
+solving real-life complex problems.</p>
+<p id="thirtyone">Data Structures are widely used in AI/ML, operating systems, and other sectors.</p>
+<p id="thirtyone">Understanding Data Structures gives you a clear understanding of how a data-based problem can be solved efficiently.</p>
+<p id="thirtyone">Moreover, if you want to land an IT job in your dream company then Data Structures are a must.</p>
+<p id="thirtyone">Because Data Structure is part of the interview and hiring process.
+    Product-based companies check for the strength of Data Structures so that 
+    you can help them with their day-to-day problems.</p>
+<p id="thirtyone">If a candidate is unaware of Data Structures then he’ll not be able to write 
+    efficient code.</p>
+<p id="thirtyone">Based on the project, it’s crucial to choose the right data structure for your project.
+    Master Data Structures and Algorithms with Tap Academy!</p>
+
+<h2 id="thirty">What will you learn in this course?</h2>
+<li id="thirtyone">Practical training in Data Structures & Algorithms</li>
+<li id="thirtyone">Strengthen the DSA concepts from basics to advanced level</li>
+<li id="thirtyone">How to solve competitive-level programming questions?</li>
+<li id="thirtyone">Practice 150+ coding questions to strengthen the concepts</li>                                   
+<li id="thirtyone">Solutions to the problems asked by Amazon, Flipkart, Adobe, Microsoft, Apple, etc.</li>
+<br>
+<h2  id="thirty">Key Features</h2>
+<li id="thirtyone">500 hours of quality training</li>
+<li id="thirtyone">50 hours of live mentoring & doubt clarification sessions</li>
+<li id="thirtyone">350+ coding questions & discussion forum</li>
+<li id="thirtyone">Aptitude & Spoken English Classes</li>
+<li id="thirtyone">24/7 LMS access with interview preparation and placement assistance</li>
+<li id="thirtyone">Online & Offline Classes</li><br>
+
+<img id="thirtytwo" src="pictures/ar.png" alt="" height="60px" width="60px">                        
+<img id="thirtytwo" src="pictures/admin.png" alt="" height="60px" width="60px">                           
+<img id="thirtytwo" src="pictures/back.png" alt="" height="60px" width="60px">                            
+<img id="thirtytwo"  src="pictures/video.png" alt="" height="60px" width="60px">                                     
+<img id="thirtytwo" src="pictures/company.png" alt="" height="60px" width="60px">
+<pre id="thirtythree" >                               100+ job opportunity,                     Problems solved from                     Live Coding Experience                   24/7 LMS access with                     350+ problem statements
+                            Dedicated recruiter team                Amazon, Flipkart, Adobe,                  with Augmented Reality                  Interview preparation &                   solved with 1:1 Mentorship
+                                                                                         Microsoft, Apple,                                   Training             
+</pre>
+
+<h1 id="thirtyfour">Data Structures and Algorithms - Learning made fun with AR</h1>
+<p id="thirtyfive">With Tap Academy, you can learn about Data Structures and Algorithms using augmented reality training. It is India’s only platform that provides practical training on Data Structures & Algorithms with DSA certification. </p>
+<p id="thirtyfive">Learn the entire concept of DSA with our instructor-led training and personal mentorship from experts on the slack channel.</p>
+<p id="thirtyfive">The course video lectures contain the solution to the problems asked by giant companies like Amazon, Google, Flipkart, Adobe, Netflix, Microsoft, etc., in the interview round.  </p><br><br>
+</fieldset>
+    <fieldset id="fieldddd">  <br> <br>
+
+    <b id="hsix">TAP </b>
+    <b id="hseven">ACADEMY</b>
+    <b id="height">Useful Links</b> 
+    <b id="hnine">Policies</b>  
+    
+    <p id="hten">An Online Skilling Organization</p> <br>
+    <a id="heleven" href="Home.html">Home</a> 
+    <a id="htweleve" href="privacy policy.html">privacy policy</a>
+    <a id="hthirteen" href="pictures/facebook.jpg"><img src="pictures/facebook.jpg" alt="" height="40px" width="40px"></a>
+    <p id="hfourteen">Location</p> 
+    <a id="hfifteen" href="Course.html">Course</option></a> 
+    <a id="hsixteen" href="terms&conditions.html">Terms&Conditions</a> 
+    <a id="hseventeen" href="https://www.youtube.com/@TAPACADEMY"><img src="pictures/youtube logo.png" alt="" height="40px" width="35px"></a> <br>
+    
+    <a id="heighteen" href="https://www.google.co.in/maps/place/TAP+Academy+BTM/@12.9163145,77.6080569,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae3d6411bbb945:0x884e5e751a18bc1!8m2!3d12.9163145!4d77.6106318!16s%2Fg%2F11rd5h21qx?entry=ttu"><img src="pictures/map.jpg" alt="" height="20px" width="20px"></a> 
+    <a id="hnineteen" href="https://www.google.co.in/maps/place/TAP+Academy+BTM/@12.9163145,77.6080569,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae3d6411bbb945:0x884e5e751a18bc1!8m2!3d12.9163145!4d77.6106318!16s%2Fg%2F11rd5h21qx?entry=ttu">BTM</a> 
+    <a id="htwentyone" href="Student reviews.html">Student reviews</a>
+    <a id="htwentytwo" href="Refunds.html">Refunds/Cancellations</a> 
+    <a id="htwentythree" href="tapacademy.online"><img src="pictures/insta logo.png" alt="" height="40px" width="35px"></a><br>
+    <a id="htwentyfour" href="https://www.google.co.in/maps/place/Tap+Academy+-+Rajajinagar/@12.9918022,77.5541934,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae3dd04c97b969:0xb9919df007104d14!8m2!3d12.9918022!4d77.5567683!16s%2Fg%2F11v0jvl9x3?entry=ttu"><img src="pictures/map.jpg" alt="" height="20px" width="20px"></a>  
+    <a id="htwentyfive" href="https://www.google.co.in/maps/place/Tap+Academy+-+Rajajinagar/@12.9918022,77.5541934,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae3dd04c97b969:0xb9919df007104d14!8m2!3d12.9918022!4d77.5567683!16s%2Fg%2F11v0jvl9x3?entry=ttu">RAJAJINAGAR</a> 
+    <a id="htwentysix" href="blogs.html">Blogs</a>
+    <a id="htwentyseven" href="pictures/linkedin.jpg"><img src="pictures/linkedin.jpg" alt="" height="40px" width="35px"></a><br> <br>
+    <a id="htwentyeight" href="tel:+91 08069878321"><img src="pictures/phone logo.jpg" alt="" height="20px" width="20px"></a> 
+    <a id="htwentynine" href="tel:+91 08069878321">08069878321</a>
+    <a id="hthirty" href="placements.html">Placements</a><br> <br>
+    <a id="hthirtyone" href="hello@thetapacademy.com"><img src="pictures/mail logo.jpg" alt="" height="20px" width="20px"></a>
+    <a id="hthirtytwo" href="hello@thetapacademy.com">hello@thetapacademy.com</a> 
+    <a id="hthirtythree" href="Contact us.html">Contact us</a> 
+    
+        </fieldset>
+</body>
+</html>
